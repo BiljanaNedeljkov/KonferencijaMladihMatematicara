@@ -3,7 +3,7 @@
 .row {
   height: 25em;
   position: relative;
-  background-color: antiquewhite;
+  padding: 0 2em;
 }
 
 
