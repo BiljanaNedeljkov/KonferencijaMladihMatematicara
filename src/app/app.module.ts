@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbModule, NgbActiveModal, NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './CORE/navbar/navbar.component';
 import { HeaderComponent } from './CORE/header/header.component';
@@ -14,6 +14,23 @@ import { AccommodationComponent } from './KMMNS/accommodation/accommodation.comp
 import { AgendaComponent } from './KMMNS/agenda/agenda.component';
 import { AboutNSComponent } from './KMMNS/about-ns/about-ns.component';
 import { ContactComponent } from './KMMNS/contact/contact.component';
+import { RouterModule, Routes } from '@angular/router';
+import { from } from 'rxjs';
+
+
+const routes:Routes = [
+{path: 'home', component: HomeComponent},
+{path: 'committees', component: CommitteesComponent},
+{path: 'dates', component: DatesComponent},
+{path: 'registration', component: RegistrationComponent},
+{path: 'fee', component: FeeComponent},
+{path: 'accomodation', component: AccommodationComponent},
+{path: 'agenda', component: AgendaComponent},
+{path: 'novisad', component: AboutNSComponent},
+{path: 'contact', component: ContactComponent},
+{path: '', redirectTo: 'home', pathMatch:'full'},
+]
+
 
 @NgModule({
   declarations: [
@@ -33,6 +50,7 @@ import { ContactComponent } from './KMMNS/contact/contact.component';
   ],
   imports: [
     BrowserModule,
+    RouterModule.forRoot(routes),
     NgbModule,
   ],
   providers: [],

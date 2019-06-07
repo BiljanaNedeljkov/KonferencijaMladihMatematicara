@@ -1,0 +1,34 @@
+
+
+.row {
+  height: 25em;
+  position: relative;
+  background-color: antiquewhite;
+}
+
+
+ngb-carousel {
+  height: 25em;
+  width: 100%;
+
+}
+
+.row>img.opacity {
+  position: absolute;
+  width: 100%;
+  height: 25em;
+  opacity: 0.4;
+}
+
+.carousel-caption {
+  font-size: 2em;
+  color:  white;
+  text-align: center;
+}
+
+.row>.natural {
+  position: absolute;
+  height: 25em;
+  width: 80%;
+  left: 10%;
+}
