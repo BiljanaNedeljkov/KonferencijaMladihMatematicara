@@ -16,6 +16,8 @@ import { AboutNSComponent } from './KMMNS/about-ns/about-ns.component';
 import { ContactComponent } from './KMMNS/contact/contact.component';
 import { RouterModule, Routes } from '@angular/router';
 import { from } from 'rxjs';
+import { TermsComponent } from './KMMNS/terms/terms.component';
+import { PrivacyComponent } from './KMMNS/privacy/privacy.component';
 
 
 const routes:Routes = [
@@ -28,6 +30,8 @@ const routes:Routes = [
 {path: 'agenda', component: AgendaComponent},
 {path: 'novisad', component: AboutNSComponent},
 {path: 'contact', component: ContactComponent},
+{path: 'terms', component: TermsComponent},
+{path: 'privacy', component: PrivacyComponent},
 {path: '', redirectTo: 'home', pathMatch:'full'},
 ]
 
@@ -46,7 +50,9 @@ const routes:Routes = [
     AccommodationComponent,
     AgendaComponent,
     AboutNSComponent,
-    ContactComponent
+    ContactComponent,
+    TermsComponent,
+    PrivacyComponent
   ],
   imports: [
     BrowserModule,

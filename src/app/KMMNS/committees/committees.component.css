@@ -1,0 +1,40 @@
+.container-fluid{
+    color: #264d73;
+    padding: 2em;
+    
+}
+button{
+    padding: 1em;
+    margin-bottom: 2em;
+    margin-left: 3em;
+}
+.presidents{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.organization{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+h1{
+    margin-bottom: 1em;
+    text-align: center;
+    border-bottom: 2px solid #264d73;
+    padding-bottom: .5em;
+}
+h2{
+    margin-bottom: 1em;
+}
+.btn{
+    color: #264d73;
+    border: 2px solid #264d73;
+    background-color: greenyellow;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5em;
+}
+li{
+    padding: .3em;
+}

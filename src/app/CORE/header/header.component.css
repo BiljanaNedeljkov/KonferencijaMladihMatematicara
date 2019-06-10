@@ -22,8 +22,9 @@ ngb-carousel {
 
 .carousel-caption {
   font-size: 2em;
-  color:  white;
+  color:  greenyellow;
   text-align: center;
+  font-family: 'Roboto Slab', serif;
 }
 
 .row>.natural {
