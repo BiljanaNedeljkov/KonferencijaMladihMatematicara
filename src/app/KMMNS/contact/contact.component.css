@@ -1,0 +1,33 @@
+.container-fluid{
+    color: #264d73;
+    padding: 2em;
+    
+}
+h1{
+    
+    text-align: center;
+    margin-bottom: 1em;
+    border-bottom: 2px solid #264d73;
+    padding-bottom: .5em;
+    font-family: 'Permanent Marker', cursive;
+}
+.logo>img{
+    width: 70px;
+    border-radius: 50%;
+    border: 5px solid greenyellow;
+    
+}
+.logo{
+    font-size: 1.8em;
+    margin-bottom: 2em;
+    border-bottom: 2px solid greenyellow;
+    padding-bottom: 1em;
+}
+.contact{
+    margin-bottom: 2em;
+    border-bottom: 2px solid greenyellow;
+    padding-bottom: 1em;
+}
+.location>iframe {
+height: 60%;
+}
