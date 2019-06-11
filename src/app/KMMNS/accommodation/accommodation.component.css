@@ -1,0 +1,20 @@
+.container-fluid{
+    color: #264d73;
+    padding: 2em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4,1fr);
+}
+h1{
+    margin-bottom: 1em;
+    border-bottom: 2px solid #264d73;
+    padding-bottom: .5em;
+    grid-column: 1/5;
+    text-align: center;
+}
+
+h4{
+    margin-bottom: 1em;
+    grid-column: 1/5;
+    grid-row: 2/5;
+}

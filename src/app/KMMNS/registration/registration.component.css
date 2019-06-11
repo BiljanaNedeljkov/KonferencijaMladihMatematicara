@@ -1,11 +1,35 @@
 .container-fluid{
     color: #264d73;
     padding: 2em;
-    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4,1fr);
 }
 h1{
     margin-bottom: 1em;
-    text-align: center;
     border-bottom: 2px solid #264d73;
     padding-bottom: .5em;
+    grid-column: 1/5;
+    text-align: center;
+}
+.btn{
+    padding: .5em;
+    font-size: 1.8em;
+}
+.button{
+    display: grid;
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+a :hover{
+    background-color: greenyellow;
+    color: #264d73;
+}
+a{
+    grid-column: 2/3;
+}
+h4{
+    margin-bottom: 1em;
+    grid-column: 1/5;
+    grid-row: 2/3;
 }
