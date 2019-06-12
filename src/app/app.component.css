@@ -1,23 +1,29 @@
+.row {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+
+}
+
+.sidenav {
+  grid-column: 1/5;
+}
+
+.body {
+  grid-column: 5/12;
+}
+
+@media (max-width: 767px) {
+  .container-fluid{
+    padding: 0;
+  }
+  .sidenav {
+    grid-column: 1/13;
+  }
+
+  .body {
+    grid-column: 1/13;
+  }
 .row{
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-   
+  padding: 3px;
 }
-.sidenav{
-    grid-column: 1/5;
 }
-.body{
-    grid-column: 5/12;
-}
-
-
-
-@media (max-width: 767px){
-    .sidenav{
-        grid-column: 1/13;
-    }
-    .body{
-        grid-column: 1/13;
-    }
-    
-   }

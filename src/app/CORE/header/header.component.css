@@ -1,9 +1,9 @@
-
 .row {
   height: 25em;
   position: relative;
   padding: 0 2em;
 }
+
 ngb-carousel {
   height: 25em;
   width: 100%;
@@ -18,7 +18,7 @@ ngb-carousel {
 
 .carousel-caption {
   font-size: 2em;
-  color:  greenyellow;
+  color: greenyellow;
   text-align: center;
   font-family: 'Permanent Marker', cursive;
 }
@@ -30,20 +30,22 @@ ngb-carousel {
   left: 10%;
 }
 
-@media (max-width: 767px){
-.row{
-  height: 20em;
-  padding: 0;
-}
-ngb-carousel {
-  height: 20em;
-}
+@media (max-width: 767px) {
+  .row {
+    height: 20em;
+    padding: 0;
+  }
 
-.row>img.opacity {
-  height: 20em;
-}
-.row>.natural {
-  height: 20em;
-}
+  ngb-carousel {
+    height: 20em;
+  }
 
- }
+  .row>img.opacity {
+    height: 20em;
+  }
+
+  .row>.natural {
+    height: 20em;
+  }
+
+}

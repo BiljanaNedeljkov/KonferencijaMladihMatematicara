@@ -1,19 +1,21 @@
-.container-fluid{
-    color: #264d73;
-    padding: 2em;
-    
+.container-fluid {
+  color: #264d73;
+  padding: 2em;
 }
-h1{
-    
-    margin-bottom: 1em;
-    border-bottom: 2px solid #264d73;
-    padding-bottom: .5em;
-    text-align: center;
-    font-family: 'Permanent Marker', cursive;
+
+h1 {
+
+  margin-bottom: 1em;
+  border-bottom: 2px solid #264d73;
+  padding-bottom: .5em;
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
 }
-i{
-    font-size: 1.8em;
+
+i {
+  font-size: 1.8em;
 }
-li{
-    font-size: 1.2em;
+
+li {
+  font-size: 1.2em;
 }
