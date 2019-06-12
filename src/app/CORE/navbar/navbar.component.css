@@ -1,12 +1,10 @@
 .sidenav {
   padding: 2em;
-  
 }
 
 li {
   width: 100%;
   background-color: #264d73;
-  border-radius: 4%;
   margin: 1px;
   padding: 5px;
 }
@@ -19,3 +17,12 @@ a:hover{
     text-transform: uppercase;
     color: greenyellow;
 }
+@media (max-width: 767px){
+  .sidenav{
+    padding: 0;
+  }
+  li{
+    padding: 0;
+    margin: 3px;
+  }
+ }

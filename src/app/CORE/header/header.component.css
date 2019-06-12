@@ -4,12 +4,9 @@
   position: relative;
   padding: 0 2em;
 }
-
-
 ngb-carousel {
   height: 25em;
   width: 100%;
-
 }
 
 .row>img.opacity {
@@ -32,3 +29,21 @@ ngb-carousel {
   width: 80%;
   left: 10%;
 }
+
+@media (max-width: 767px){
+.row{
+  height: 20em;
+  padding: 0;
+}
+ngb-carousel {
+  height: 20em;
+}
+
+.row>img.opacity {
+  height: 20em;
+}
+.row>.natural {
+  height: 20em;
+}
+
+ }

@@ -1,22 +1,30 @@
-.home{
-padding: 2em;
-color: #264d73;
+.home {
+  padding: 2em;
+  color: #264d73;
+}
 
+.logo>img {
+  width: 70px;
+  border-radius: 50%;
+  border: 5px solid greenyellow;
+}
 
+.logo {
+  font-size: 1.8em;
 }
-.logo>img{
-    width: 70px;
-    border-radius: 50%;
-    border: 5px solid greenyellow;
-    
+
+p {
+  font-size: 1.4em;
+  padding-top: 1em;
 }
-.logo{
-    font-size: 1.8em;
+
+i {
+  font-family: 'Roboto Slab', serif;
 }
-p{
-    font-size: 1.4em;
-    padding-top: 1em;
-}
-i{
-    font-family: 'Roboto Slab', serif;
+
+@media (max-width: 767px) {
+  .logo {
+    font-size: 1.5em;
+  }
+
 }

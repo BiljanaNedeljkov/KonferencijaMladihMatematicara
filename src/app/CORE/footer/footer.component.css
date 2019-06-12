@@ -38,3 +38,23 @@ ul>li>a:hover {
   border-radius: 20%;
   background-color: white;
 }
+
+@media (max-width: 767px) {
+  #footer {
+    background-color: #264d73;
+    color: antiquewhite;
+    padding: 0;
+  }
+
+  #footer>ul {
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  #footer ul>li a {
+    font-size: 1em;
+    padding: 10px;
+  }
+
+}
